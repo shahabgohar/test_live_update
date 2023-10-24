@@ -8,6 +8,12 @@ const config: CapacitorConfig = {
     androidScheme: 'https'
   },
   plugins: {
+    LiveUpdates: {
+      appId: 'bfc20438',
+      channel: 'production',
+      autoUpdateMethod: 'background',
+      maxVersions: 2
+    },
     SplashScreen: {
       launchShowDuration: 3000,
       launchAutoHide: true,
