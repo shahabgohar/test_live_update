@@ -15,6 +15,8 @@ PODS:
     - Capacitor
   - CapacitorStatusBar (5.0.6):
     - Capacitor
+  - CordovaPlugins (5.5.0):
+    - CapacitorCordova
   - IonicLiveUpdates (0.5.0-beta.1)
 
 DEPENDENCIES:
@@ -26,6 +28,7 @@ DEPENDENCIES:
   - "CapacitorLiveUpdates (from `../../node_modules/@capacitor/live-updates`)"
   - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
 
 SPEC REPOS:
   trunk:
@@ -48,6 +51,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/splash-screen"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
+  CordovaPlugins:
+    :path: "../capacitor-cordova-ios-plugins"
 
 SPEC CHECKSUMS:
   Capacitor: 57890b363df14d5d2d5d8461aa23e886cb34da2a
@@ -58,8 +63,9 @@ SPEC CHECKSUMS:
   CapacitorLiveUpdates: 1f37f66f44ca50a8b1a975126839ce383aade987
   CapacitorSplashScreen: 5fa2ab5e46cf5cc530cf16a51c80c7a986579ccd
   CapacitorStatusBar: 565c0a1ebd79bb40d797606a8992b4a105885309
+  CordovaPlugins: 11d429fd653fe424ac24a56b8060dd5faaae2860
   IonicLiveUpdates: bf5aa07e5bedb693a9fd5a977056d5fa785c7012
 
-PODFILE CHECKSUM: 25f78fbdf05e0638c0db3798b26b4d9352a59e58
+PODFILE CHECKSUM: 069caf410ee93f6bb4962f88c86c5b0607ebc6de
 
 COCOAPODS: 1.12.1
