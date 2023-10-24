@@ -1,7 +1,7 @@
 <template>
   <div id="container">
     <strong>{{ name }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">Hello shahab</a></p>
+    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">Hello shahab ud din gohar</a></p>
   </div>
 </template>
 
